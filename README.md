@@ -1,20 +1,74 @@
-# SEO Rank Pilot
+# SEO Rank Tracker
 
-SEO audits and keyword rank tracking with a React/Vite client and Express API.
+**SEO Rank Tracker** is an AI-powered SEO analyzer built with React, Vite, and Tailwind CSS. It provides instant SEO audits, performance scores, keyword analysis, and actionable recommendations for any website.
 
-## Local development
+## Features
 
-1. Install dependencies in `server/` and `client/`.
-2. Configure server environment variables using `server/.env.example`.
-3. Set `VITE_BACKEND_URL` in the client environment to the API URL (for local development, `http://localhost:5000`).
-4. Run the API with `cd server && npm start`, then run the client with `cd client && npm run dev`.
+- **Instant SEO Audits:** Get comprehensive insights into your website's SEO performance.
+- **Performance Scores:** Analyze page speed and Core Web Vitals.
+- **Keyword Analysis:** Discover and optimize for relevant keywords.
+- **Actionable Recommendations:** Receive step-by-step guidance to improve your rankings.
+- **AI-Powered Insights:** Leverage AI to analyze content quality and structure.
 
-## Rank tracking
+## Tech Stack
 
-Rank checks use Browserbase to read Google search results. Successful results are cached for 24 hours, and scheduled checks run sequentially with a delay. A blocked Google check is reported as “Google blocked this check, try again later”; there is no Serper or Google CSE fallback.
+- **Frontend:** React 19, React Router, Tailwind CSS 4
+- **Icons:** Lucide React, React Simple Icons
+- **Build Tool:** Vite
+- **Language:** TypeScript
 
-Browserbase proxies are optional and may incur charges. They are disabled by default; set `BROWSERBASE_USE_PROXY=true` only when the Browserbase account supports proxy access. Configure `CRON_SECRET` to authorize the daily Vercel rank-check cron.
+## Getting Started
 
-## Deployment
+### Prerequisites
 
-The Vercel configuration is in `server/vercel.json`. Configure the server environment variables in Vercel, including `MONGODB_URL`, `JWT_SECRET`, `BROWSERBASE_API_KEY`, `CRON_SECRET`, and `FRONTEND_URL`. Set the client `VITE_BACKEND_URL` to the deployed API URL when deploying it separately.
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/GreatStackDev/seo-rank-tracker.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd seo-rank-tracker
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Development Server
+
+Start the Vite development server:
+
+```bash
+npm run dev
+```
+
+### Building for Production
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## Code of Conduct
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating in our community.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
