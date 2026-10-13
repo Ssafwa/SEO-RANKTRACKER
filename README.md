@@ -9,10 +9,9 @@ I built this because I wanted to see where my websites rank on Google and what t
 ## What it does
 
 - **Rank Tracker:** looks up where your site shows up on Google for each keyword, using a real browser and gives the output cleanly with graph,position details & compititors (Browserbase)
-- **Website audits:** scans a page and reports SEO problems like critical,warning & info and more 
+- **Website audits:** scans a page and reports SEO problems like critical,warning & info and more things 
 - **History:** saves past results so you can see rankings change over time
 - **AI recommendations:** an AI model reads the audit and suggests fixes
-- 
 
 ## Screenshots
 
@@ -25,16 +24,18 @@ I built this because I wanted to see where my websites rank on Google and what t
 ### Rank tracker
 <img width="900" alt="Rank tracker" src="https://github.com/user-attachments/assets/cdbbf51e-b035-4103-addb-80a14c809909" />
 
+### Dash Board 
+<img width="900" alt="Dash Board" src="https://github.com/user-attachments/assets/0a169367-f851-4ae7-8b76-45ef57629d39" />
+
 ## Tech stack
 
-| Part | What I used |
-|------|-------------|
-| Frontend | React, Vite, React Router, Tailwind CSS, TypeScript |
-| Backend | Node.js API (nodemon in dev) |
-| Database | MongoDB Atlas |
-| Rank checking | Browserbase, later a self-hosted Browserless |
-| AI | Gemini 2.5 Flash through the Hack Club AI proxy (OpenAI-compatible) |
-| Hosting | Vercel (app and API) |
+
+ Frontend - React, Vite, React Router, Tailwind CSS, TypeScript 
+ Backend - Node.js API (nodemon in dev) 
+ Database - MongoDB Atlas 
+ Rank checking - Browserbas  
+ AI - Gemini 2.5 Flash through the Hack Club AI proxy (OpenAI-compatible) 
+ Hosting - Vercel (app and API) 
 
 ## Project structure
 
