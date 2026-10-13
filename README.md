@@ -1,8 +1,10 @@
 # SEO Rank Tracker
+------------------
 
 **SEO Rank Tracker** is an AI-powered SEO analyzer built with React, Vite, and Tailwind CSS. It provides instant SEO audits, performance scores, keyword analysis, and actionable recommendations for any website.
 
 ## Features
+-----------
 
 - **Instant SEO Audits:** Get comprehensive insights into your website's SEO performance.
 - **Performance Scores:** Analyze page speed and Core Web Vitals.
@@ -11,6 +13,7 @@
 - **AI-Powered Insights:** Leverage AI to analyze content quality and structure.
 
 ## Tech Stack
+-------------
 
 - **Frontend:** React 19, React Router, Tailwind CSS 4
 - **Icons:** Lucide React, React Simple Icons
@@ -18,6 +21,7 @@
 - **Language:** TypeScript
 
 ## Getting Started
+------------------
 
 ### Prerequisites
 
@@ -25,6 +29,7 @@
 - npm or yarn
 
 ### Installation
+----------------
 
 1. Clone the repository:
     ```bash
@@ -40,6 +45,7 @@
     ```
 
 ### Running the Development Server
+----------------------------------
 
 Start the Vite development server:
 
