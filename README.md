@@ -30,12 +30,12 @@ I built this because I wanted to see where my websites rank on Google and what t
 ## Tech stack
 
 
- -Frontend - React, Vite, React Router, Tailwind CSS, TypeScript 
- -Backend - Node.js API (nodemon in dev) 
- -Database - MongoDB Atlas 
- -Rank checking - Browserbas  
- -AI - Gemini 2.5 Flash through the Hack Club AI proxy (OpenAI-compatible) 
- -Hosting - Vercel (app and API) 
+ - Frontend - React, Vite, React Router, Tailwind CSS, TypeScript 
+ - Backend - Node.js API (nodemon in dev) 
+ - Database - MongoDB Atlas 
+ - Rank checking - Browserbas  
+ - AI - Gemini 2.5 Flash through the Hack Club AI proxy (OpenAI-compatible) 
+ - Hosting - Vercel (app and API) 
 
 ## Project structure
 
