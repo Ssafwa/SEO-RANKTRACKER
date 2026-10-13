@@ -11,7 +11,7 @@ const auth = async (req, res, next) => {
         const token = authHeader.split(" ")[1];
         const decoded = jwt.verify(token, process.env.JWT_SECRET)
 
-        // ✅ FIXED: Changed decoded.Id to decoded.id to match your controller payload
+       
         req.userId = decoded.id;
         next()
      } catch {
