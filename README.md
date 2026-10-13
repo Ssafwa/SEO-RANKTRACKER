@@ -41,19 +41,9 @@ I built this because I wanted to see where my websites rank on Google and what t
 
 ```
 seo-rank-tracker/
-├── client/   # React frontend
-└── server/   # Node API, talks to MongoDB, Browserbase and the AI
+-  client/   # React frontend
+-  server/   # Node API, talks to MongoDB, Browserbase and the AI
 ```
-
-## Infrastructure (like a BOM)
-
-| Item | Why I need it |
-|------|---------------|
-| MongoDB Atlas cluster | stores audits and ranking history |
-| Browserbase account | real browser for Google rank checks |
-| Server (Docker in an LXC container, Helsinki) | runs my self-hosted Browserless |
-| ngrok free static domain | lets the Vercel API reach my server |
-| Vercel | hosts the app |
 
 ## Getting started
 
@@ -89,60 +79,12 @@ npm install
 npm run dev
 ```
 
-## Devlog: problems I ran into
-
-<details>
-<summary><b>My MongoDB Atlas cluster disappeared</b></summary>
-
-**What happened:** [the API stopped connecting to the database]
-**How I fixed it:** I made a new cluster, created a new database user, and updated the connection string in `server/.env`.
-**What I learned:** [your takeaway]
-
-</details>
-
-<details>
-<summary><b>Switching from Serper to Browserbase</b></summary>
-
-**What happened:** I first planned to use Serper for Google results.
-**How I fixed it:** I switched to Browserbase so rank checks come from a real browser, and removed the Serper key.
-**Why:** [your reason]
-
-</details>
-
-<details>
-<summary><b>Self-hosting my own Browserbase replacement</b></summary>
-
-**What happened:** [cost / limits / wanted control]
-**How I fixed it:** I ran Browserless in Docker on a server in Helsinki. I only had SSH access to it, since it runs inside Proxmox.
-**What was hard:** [your story]
-
-</details>
-
-<details>
-<summary><b>ngrok instead of a Cloudflare tunnel</b></summary>
-
-**What happened:** my Vercel-hosted API had to reach the Browserless on my server.
-**How I fixed it:** a Cloudflare quick tunnel changes its URL, so I used an ngrok free static domain, and set it up to keep running without my laptop.
-
-</details>
-
-<details>
-<summary><b>Getting AI recommendations working</b></summary>
-
-**What happened:** [the problem]
-**How I fixed it:** I used the Hack Club AI proxy with Gemini 2.5 Flash.
-
-</details>
-
-## What I want to add next
-
-- [idea 1]
-- [idea 2]
-
 ## License
 
 MIT
 
 ## Author
 
-Made by [your name], [link to profile]
+Made by safwan, https://github.com/Ssafwa
+
+
