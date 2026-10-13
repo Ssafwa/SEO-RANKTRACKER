@@ -92,7 +92,7 @@ Made by safwan, https://github.com/Ssafwa
 > This readme is fully writen by me 
 >  <img width="1920" height="1028" alt="image" src="https://github.com/user-attachments/assets/c3ba197a-4e7d-46a2-8823-d868379978b8" />
 
-> and this website took me above 18  houres so i dont use any ai for any ui or logics fully done by me 
+> and this website took me above 18  houres so i dont use any ai 
 
 
 
