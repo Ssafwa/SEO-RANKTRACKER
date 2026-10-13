@@ -7,11 +7,12 @@ I built this because I wanted to see where my websites rank on Google and what t
 </p>
 
 ## What it does
+- - **Rank tracker:** enter your website and a keyword, and it opens a real browser (Browserbase) to search Google and find where you show up. You get your position, a graph of how it changes, and the competitors ranking around you. I used a real browser so the results match what a person would actually see on Google
+- **Website audits:** scans a page and reports SEO problems, such as [titles, meta descriptions, headings, imge audits]. Each problem is sorted into **critical**, **warning**, or **info**, so you know what to fix first.
+- **History:** every check is saved, so you can look back at old results and see how your rankings change over time.
+- **Gemini recommendations:** after an audit,  Gemini  reads the results and point out the mportant SEO issues and gives scores .
 
-- **Rank Tracker:** looks up where your site shows up on Google for each keyword, using a real browser and gives the output cleanly with graph,position details & compititors (Browserbase)
-- **Website audits:** scans a page and reports SEO problems like critical,warning & info and more things 
-- **History:** saves past results so you can see rankings change over time
-- **AI recommendations:** an AI model reads the audit and suggests fixes
+  
 
 ## Screenshots
 
