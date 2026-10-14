@@ -51,7 +51,7 @@ seo-rank-tracker/
 **You need:** Node.js 18+, a MongoDB Atlas cluster, and a Browserbase API key (or your own Browserless).
 
 ```bash
-git clone https://github.com/Ssafwa/seo-rank-tracker
+git clone https://github.com/Ssafwa/SEO-RANKTRACKER
 cd seo-rank-tracker
 ```
 
