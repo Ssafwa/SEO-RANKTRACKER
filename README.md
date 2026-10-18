@@ -6,6 +6,15 @@ I built this because I wanted to see where my websites rank on Google and what t
   <img width="900" alt="Dashboard" src="https://github.com/user-attachments/assets/221af5d1-8821-4f74-8b72-bad622bf1c6e" />
 </p>
 
+
+## PROJECT LINK 
+<a href="https://seo-rank-tracker-dusky.vercel.app/" target="_blank">
+  <button style="background-color: #0070f3; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">
+   CLICK HERE
+  </button>
+</a>
+
+
 ## What it does
 - **Rank tracker:** enter your website and a keyword, and it opens a real browser (Browserbase) to search Google and find where you show up. You get your position, a graph of how it changes, and the competitors ranking around you. I used a real browser so the results match what a person would actually see on Google
 - **Website audits:** scans a page and reports SEO problems, such as [titles, meta descriptions, headings, imge audits]. Each problem is sorted into **critical**, **warning**, or **info**, so you know what to fix first.
