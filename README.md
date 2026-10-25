@@ -3,7 +3,7 @@ this is a simple website for it to checks your rankings, audits the page, and an
 I built this because I wanted to see where my websites rank on Google and what to fix, without paying for a big SEO tool.  
 
 <p align="center">
-  <img width="900" alt="Dashboard" src="https://github.com/user-attachments/assets/221af5d1-8821-4f74-8b72-bad622bf1c6e" />
+  <img width="900" alt="Dashboard" src="seo-rank-tracker-rev-pic/671999864-221af5d1-8821-4f74-8b72-bad622bf1c6e.png" />
 </p>
 
 
