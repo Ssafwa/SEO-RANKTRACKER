@@ -26,16 +26,16 @@ I built this because I wanted to see where my websites rank on Google and what t
 ## Screenshots
 
 ### Audit
-<img width="900" alt="Audit" src="https://github.com/user-attachments/assets/5a737176-d990-4304-9858-b3df9eacc4b7" />
+<img width="900" alt="Audit" src="seo-rank-tracker-rev-pic/672015773-5a737176-d990-4304-9858-b3df9eacc4b7.png" />
 
 ### History
-<img width="900" alt="History" src="https://github.com/user-attachments/assets/8f59c9df-cb37-4540-9bbf-d3656f184c74" />
+<img width="900" alt="History" src="seo-rank-tracker-rev-pic/672015324-8f59c9df-cb37-4540-9bbf-d3656f184c74.png" />
 
 ### Rank tracker
-<img width="900" alt="Rank tracker" src="https://github.com/user-attachments/assets/cdbbf51e-b035-4103-addb-80a14c809909" />
+<img width="900" alt="Rank tracker" src="seo-rank-tracker-rev-pic/672016638-cdbbf51e-b035-4103-addb-80a14c809909.png" />
 
 ### Dash Board 
-<img width="900" alt="Dash Board" src="https://github.com/user-attachments/assets/0a169367-f851-4ae7-8b76-45ef57629d39" />
+<img width="900" alt="Dash Board" src="seo-rank-tracker-rev-pic/672020075-0a169367-f851-4ae7-8b76-45ef57629d39.png" />
 
 ## Tech stack
 
@@ -100,7 +100,7 @@ Made by safwan, https://github.com/Ssafwa
 > [!NOTE]
 > A NOTE FOR HACKCLUB SHIPWRIGHTS
 > This readme is fully writen by me 
->  <img width="1920" height="1028" alt="image" src="https://github.com/user-attachments/assets/c3ba197a-4e7d-46a2-8823-d868379978b8" />
+>  <img width="1920" height="1028" alt="image" src="seo-rank-tracker-rev-pic/672030806-c3ba197a-4e7d-46a2-8823-d868379978b8.png" />
 
 > and this website took me above 18  houres so i dont use any ai 
 
